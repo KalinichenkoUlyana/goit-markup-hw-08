@@ -1,0 +1,62 @@
+.adress {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.adress-item {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.adress-list-item {
+    margin-bottom: 9px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+
+
+
+.map {
+    color: #ffffff;
+}
+
+.logo-footer {
+    color: #ffffff;
+}
+
+.adress-list {
+    margin-top: 20px;
+}
+
+.invent {
+    width: 206px;
+    height: 80px;
+
+    margin-left: 70px;
+}
+
+.invent-footer {
+    margin-bottom: 20px;
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
+.link-footer {
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--main-background-color);
+}
