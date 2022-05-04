@@ -66,7 +66,23 @@
 }
 //1200+
 @media screen and (min-width:1200px){
+    .main-text__images {
+        width: 270px;
+    }
+.main-text {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-right: -30px;
     
+   
+}
+
+.main-text__items {
+    flex-basis: calc((100%-120px) / 4);
+    margin-right: 30px;
+   
+}
+
 }
 /*.text,
 .member-list__description {
