@@ -1,3 +1,17 @@
+
+//0px-767px
+@media screen and (max-width:768px){
+    .description{
+        display: none;
+    }
+}
+@media screen and (min-width: 768px){
+    .description {
+        display: none;
+
+}
+//1200+
+@media screen and (min-width:1200px){
 .description {
     padding-top: 0px;
 }
@@ -32,4 +46,5 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #ffffff;
+}
 }
