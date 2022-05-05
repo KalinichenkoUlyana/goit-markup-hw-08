@@ -52,7 +52,7 @@
         }
         
         .main-text__items {
-            flex-basis: calc((100% - 40px) / 2);
+            flex-basis: calc((100% - 30px) / 2);
         
             &:not(:nth-child(2n)) {
                 margin-right: 30px;
@@ -72,7 +72,8 @@
 .main-text {
     display: flex;
     flex-wrap: nowrap;
-    margin-right: -30px;
+    justify-content: space-between;
+    
     
    
 }
@@ -80,6 +81,11 @@
 .main-text__items {
     flex-basis: calc((100%-120px) / 4);
     margin-right: 30px;
+    margin-bottom: 30px;
+    &:last-child {
+        margin-right: 0px;
+        
+    }
    
 }
 
