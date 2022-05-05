@@ -2,6 +2,112 @@
     padding-top: 60px;
     padding-bottom: 60px;
 }
+.adress-item {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.map {
+    color: #ffffff;
+}
+
+.logo-footer {
+    color: #ffffff;
+}
+.adress-list {
+    margin-top: 20px;
+}
+
+.invent-footer {
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.link-footer {
+    background: rgba(255, 255, 255, 0.1);
+    fill: var(--main-background-color);
+}
+
+.adress {
+        text-align: center;}
+.adress-list {
+    margin-bottom: 60px;
+}
+.adress-list-item {
+    margin-bottom: 8px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+//0px-767px
+@media screen and (max-width:768px){
+    .adress {
+        text-align: center;}
+.adress-list {
+    margin-bottom: 60px;
+}
+.adress-list-item {
+    margin-bottom: 8px;
+
+    &:last-child {
+        margin-bottom: 0px;
+    }
+}
+.invent{
+   text-align: center; 
+   padding-left: 122px;
+   padding-right: 122px;
+}
+.link-footer{
+    margin-bottom: 60px;
+}
+
+}
+//768+
+@media screen and (min-width: 768px){
+
+.adress-footer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-around;
+}
+
+}
+//1200+
+@media screen and (min-width:1200px){
+    .footer-container {
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .adress-list-item {
+        margin-bottom: 9px;
+    
+        &:last-child {
+            margin-bottom: 0px;
+        }
+    }
+.invent {
+    width: 206px;
+    height: 80px;
+
+    margin-left: 70px;
+}
+.adress-list {
+    margin-bottom: 0px;
+}
+}
+/*.adress {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
 
 .adress-item {
     font-style: normal;
@@ -59,4 +165,4 @@
 .link-footer {
     background: rgba(255, 255, 255, 0.1);
     fill: var(--main-background-color);
-}
+}*/
