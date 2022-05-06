@@ -31,7 +31,7 @@
 }
 
 //480+
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .clients-link {
         width: 210px;
         height: 92px;}
@@ -86,5 +86,8 @@
                 margin-bottom: 0px;
             }
         }
+.description__title {
+    margin-bottom: 50px;
+}
     }
 

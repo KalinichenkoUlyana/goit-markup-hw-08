@@ -47,7 +47,7 @@
     }
 }
 //0px-767px
-@media screen and (max-width:768px){
+@media screen and (max-width:767px){
     .adress {
         text-align: center;}
 .adress-list {
@@ -77,8 +77,11 @@
     display: flex;
     align-items: baseline;
     justify-content: space-around;
+    
 }
-
+.invent {
+    width: 206px;
+    height: 80px;}
 }
 //1200+
 @media screen and (min-width:1200px){
@@ -94,10 +97,11 @@
             margin-bottom: 0px;
         }
     }
+    .adress {
+        text-align: start;
+    }
 .invent {
-    width: 206px;
-    height: 80px;
-
+    
     margin-left: 70px;
 }
 .adress-list {
